@@ -342,4 +342,14 @@ header {
     margin-bottom: 5px;
 }
 
+/* ----------------------------- */
+/* TESTIMONIALS */
+/* ----------------------------- */
+.testimonials {
+    color: #fff;
+    background-image: url("img/back-customers.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
 
