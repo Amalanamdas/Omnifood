@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <!--<meta name="viewport"-->
-    <!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Omnifod is a premium food delivery service with the mission to bring affordable and healthy vegetarian meals to as many people as possible.">
 
     <title>Omnifood</title>
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
@@ -16,6 +15,17 @@
     <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
@@ -35,7 +45,7 @@
                 <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
             </div>
         </nav>
-        <div class="hero-text-box">
+        <div class="hero-text-box" id="hero">
             <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
             <a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry</a>
             <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
@@ -109,33 +119,32 @@
                     <img src="resources/img/4_edited.jpg" alt="#">
                 </figure>
             </li>
-            <ul class="meals-showcase clearfix">
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/5_edited.jpg" alt="#">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/6_edited.jpg" alt="#">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/7_edited.jpg" alt="#">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/8_edited.jpg" alt="#">
-                    </figure>
-                </li>
-            </ul>
-
+        </ul>
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/5_edited.jpg" alt="#">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/6_edited.jpg" alt="#">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/7_edited.jpg" alt="#">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/8_edited.jpg" alt="#">
+                </figure>
+            </li>
         </ul>
     </section>
 
-<!-- TODO: fix padding-top (too large, brakes navigation while scrolling) -->
+    <!-- TODO: fix padding-top (too large, brakes navigation while scrolling) -->
 
     <section class="section-steps" id="steps">
         <div class="row">
@@ -359,9 +368,8 @@
                         </div>
                         <div class="col span-2-of-3">
                             <select name="find-us" id="find-us">
-                                <option value="-" selected></option>
                                 <option value="friends">Friends</option>
-                                <option value="search">Search engine</option>
+                                <option value="search" selected>Search engine</option>
                                 <option value="add">Advertisement</option>
                                 <option value="other">Other</option>
                             </select>
@@ -421,14 +429,14 @@
             </p>
         </div>
     </footer>
-    
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/scripts.js"></script>
-    
+
 </body>
 
 
