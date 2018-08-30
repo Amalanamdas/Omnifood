@@ -100,4 +100,37 @@ $(document).ready(function () {
             icon.addClass('ion-navicon-round');
         }
     })
+
+    /* Maps */
+    var map = new GMaps({
+        div: '.map',
+        lat: -34.92866,
+        lng: 138.65,
+        zoom: 12
+    });
+    map.addMarker({
+        lat: -34.980118,
+        lng: 138.511505,
+        title: 'Adelaide',
+        infoWindow: {
+            content: '<p>Our Adelaide Restaurant</p>'
+        }
+    });
+    map.addMarker({
+        lat: -34.922283,
+        lng: 138.602053,
+        title: 'Adelaide',
+        infoWindow: {
+            content: '<p>Our Adelaide HQ</p>'
+        }
+    });
+    map.addMarker({
+        lat: -34.920196,
+        lng: 138.607597,
+        title: 'Adelaide',
+        infoWindow: {
+            content: '<p>Our Adelaide Cafe</p>'
+        }
+    });
+
 });
